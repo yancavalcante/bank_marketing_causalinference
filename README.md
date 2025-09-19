@@ -39,6 +39,8 @@ Os dados utilizados são do **UCI Bank Marketing Dataset**, que contém:
 
 ## 📌 Principais achados
 - **Sucesso anterior (`poutcome_success`)** e **campanhas realizadas em outubro (`month_oct`)** aparecem como os fatores mais fortemente associados à adesão, com efeitos estimados robustos.
+- A variável **(`poutcome_success`)** apresenta efeito positivo forte e significativo (ATE ≈ 0,42), indicando que clientes com histórico de sucesso têm probabilidade substancialmente maior de aderir novamente ao depósito.
+- A variável **(`month_oct`)** também exibe efeito positivo significativo (ATE ≈ 0,31), sugerindo um padrão sazonal favorável nesse período.
 - O simples fato de ter sido contatado antes (`previous_bin`) tem efeito positivo, mas menor e não estatisticamente significativo em alguns testes.
 - O número de contatos anteriores (`previous`) mostrou efeito nulo.
 
