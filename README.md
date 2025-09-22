@@ -38,11 +38,15 @@ Os dados utilizados são do **UCI Bank Marketing Dataset**, que contém:
 - Refutação de estimativas usando placebo e confundidores aleatórios.
 
 ## 📌 Principais achados
-- **Sucesso anterior (`poutcome_success`)** e **campanhas realizadas em outubro (`month_oct`)** aparecem como os fatores mais fortemente associados à adesão, com efeitos estimados robustos.
-- A variável **(`poutcome_success`)** apresenta efeito positivo forte e significativo (ATE ≈ 0,42), indicando que clientes com histórico de sucesso têm probabilidade substancialmente maior de aderir novamente ao depósito.
-- A variável **(`month_oct`)** também exibe efeito positivo significativo (ATE ≈ 0,31), sugerindo um padrão sazonal favorável nesse período.
-- O simples fato de ter sido contatado antes (`previous_bin`) tem efeito positivo, mas menor e não estatisticamente significativo em alguns testes.
-- O número de contatos anteriores (`previous`) mostrou efeito nulo.
+- **Sucesso anterior (`poutcome_success`)** e **campanhas realizadas em março (`month_mar`)** aparecem como os fatores mais fortemente associados à adesão, com efeitos estimados robustos.
+- A variável **(`poutcome_success`)** apresenta efeito positivo fraco e significativo (ATE ≈ 0,15), indicando que clientes com histórico de sucesso têm probabilidade substancialmente maior de aderir novamente ao depósito.
+- A variável **(`month_mar`)** também exibem efeito positivo e estatisticamente significativo (ATE ≈ 0,28), sugerindo um padrão sazonal favorável nesse período.
+- O histórico de contato binário **(`previous_bin`)**: efeito negativo e estatisticamente significativo (ATE ≈ -7,62), porém anômalo, possível multicolinearidade.
+- O número de contatos anteriores (`previous`) mostrou efeito praticamente nulo.
+
+## ⏭️ Próximos passos
+- Testar a hipótese de multicolinearidade no histórico de contato binário
+- Realizar a conclusão e formular diretrizes para possíveis stakeholders
 
 ## ▶️ Como executar
 1. Clone este repositório:
