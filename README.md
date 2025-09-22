@@ -16,6 +16,7 @@ Diferente de uma análise puramente preditiva, aqui o foco está em **inferir re
   - Estimativa de efeitos causais com diferentes métodos (`DoWhy`);
   - Visualizações (taxas de adesão, forest plots);
   - Testes de robustez (refutadores).
+-`bank-additional-full.csv`: Dataset utilizado no projeto, contendo 41188 linhas × 21 colunas
 
 ## 📦 Bibliotecas utilizadas
 - [pandas](https://pandas.pydata.org/) para manipulação de dados;  
