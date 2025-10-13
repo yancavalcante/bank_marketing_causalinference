@@ -1,7 +1,3 @@
-# bank_marketing_causalinference
-Bank Marketing Causal Inference is a project which aims to infer the most important causes of the deposits on a fictional bank
-
-
 # 📊 Bank Marketing Causal Inference
 
 Este projeto tem como objetivo identificar os principais **determinantes causais** para a adesão de clientes a depósitos a prazo em um banco português, a partir dos dados de campanhas de marketing.
