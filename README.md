@@ -12,12 +12,13 @@ Diferente de uma análise puramente preditiva, aqui o foco está em **inferir re
   - Estimativa de efeitos causais com diferentes métodos (`DoWhy`);
   - Visualizações (taxas de adesão, forest plots);
   - Testes de robustez (refutadores).
+    
 -`bank-additional-full.csv`: Dataset utilizado no projeto, contendo 41188 linhas × 21 colunas
 
 ## 📦 Bibliotecas utilizadas
 - [pandas](https://pandas.pydata.org/) para manipulação de dados;  
 - [seaborn](https://seaborn.pydata.org/) e [matplotlib](https://matplotlib.org/) para visualização;  
-- [DoWhy](https://microsoft.github.io/dowhy/) para modelagem causal;  
+- [DoWhy](https://microsoft.github.io/dowhy/) para modelagem causal (DAG e Inferência);  
 - [scikit-learn](https://scikit-learn.org/) para suporte a matching e regressão.
 
 ## 📊 Dataset
@@ -44,6 +45,10 @@ Os dados utilizados são do **UCI Bank Marketing Dataset**, que contém:
 ## ⏭️ Próximos passos
 - Testar a hipótese de multicolinearidade no histórico de contato binário
 - Realizar a conclusão e formular diretrizes para possíveis stakeholders
+
+##
+⏭️ Diretrizes (até o momento, antes de testar multicolinearidade)
+- Sugerir aos stakeholders ampliação da carteira de clientes com **(`poutcome_success`)** = 1 para retroalimentar os depósitos a prazo, especialmente durante as campanhas do mês de março cuja sazonalidade é favorável a esse tipo de campanha.
 
 ## ▶️ Como executar
 1. Clone este repositório:
